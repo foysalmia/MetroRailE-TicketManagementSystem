@@ -8,3 +8,7 @@ def wellcome(request):
         'title' : 'Home page'
     }
     return HttpResponse("<h1>Wellcome everyone !</h1>")
+
+
+def new_project(request):
+    return HttpResponse("Django")

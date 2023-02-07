@@ -19,5 +19,6 @@ from main_app import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.wellcome, name="home")
+    path('', views.wellcome, name="home"),
+    path('django/',views.new_project, name='django'),
 ]
