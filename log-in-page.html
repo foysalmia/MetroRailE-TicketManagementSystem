@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    .hit {
+      height: 450px;
+      width: 425px;
+      margin-inline: 100px;
+      margin-top: 100px;
+      border: 10px solid green;
+      padding: 20px;
+      padding-top: 50px;
+      background-color: #00ff405e;
+    }
+
+    .pic {
+      background-image: url("images/background.jpg");
+      background-repeat: no-repeat;
+      background-position: right;
+      background-size: 100%;
+      height: 750px;
+      background-position-y: 0dvh;
+    }
+
+    .dis {
+      padding-top: 130px;
+      font-size: 37px;
+      text-align: center;
+      padding-left: 50px;
+    }
+  </style>
+
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>Sign-In</title>
+</head>
+
+<body>
+  <!-- <nav class="navbar navbar-light bg-light"> -->
+    <div class="nv">
+      <nav id="navbar-example2" class="n-clr navbar navbar-light px-3" style="height: 75px; background-color:   #0EF02730;">
+        <a class="btn btn-primary" href="home-page-1.html" role="button">Home</a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="btn btn-primary" href="registration.html" role="button">Sign up</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+              <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  <!-- </nav> -->
+  <div class="d-flex pic">
+    <form class="hit align-middle">
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <button type="submit" class="btn btn-primary"> Log in</button>
+    </form>
+    <div class="dis">
+      <div class="new">
+        <p> New to our site</p>
+        <p>Please sign up</p>
+        <a class="btn btn-primary" href="registration.html" role="button">Sign up</a>
+
+      </div>
+    </div>
+
+  </div>
+  <nav class="navbar navbar-blue" style="background-color:#0EF02730;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.png" alt="" width="100" height="100" class="d-inline-block align-text-top">
+        <span style="margin-top: 10px;">
+          Dhaka Mattro
+        </span> 
+      </a>
+    </div>
+  </nav>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
