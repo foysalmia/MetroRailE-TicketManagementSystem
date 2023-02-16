@@ -44,6 +44,7 @@
     background-size: cover;
     background-color: #071a52;
     background-image: url('background.jpg');
+    padding: 20px;
 }
 .iii:hover{
     letter-spacing: 3px;
@@ -61,12 +62,14 @@
     padding: 20px;
 }
 .search-train{
-width: 47%;
-margin-left: 40px;
+width: 50%;
 margin-bottom: 20px;
 display: flex;
 align-items: center;
 justify-content: center;
+box-shadow: -1px 4px 43px -1px rgba(0,0,0,0.68);
+-webkit-box-shadow: -1px 4px 43px -1px rgba(0,0,0,0.68);
+-moz-box-shadow: -1px 4px 43px -1px rgba(0,0,0,0.68);
 }
 .btn-block{
     color: rgb(43, 37, 37);
