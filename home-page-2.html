@@ -49,7 +49,28 @@
       </div>
   <!--Header end-->
   <div class="section" style="background-image: url('background.jpg');">
-
+    <div class="booking-form backdrop-blur-sm">
+      <div class="form_part_one">
+        <label for="from">Form</label><br/>
+        <input id="from" type="text" placeholder="From Station" class="input input-bordered input-success w-full max-w-xs" />
+        <label for="jurney">Date of Journey</label><br/>
+        <input id="from" type="date" placeholder="Travel date" class="input input-bordered input-success w-full max-w-xs" />
+      </div>
+      <div class="form_part_two">
+        <label for="to">To</label><br/>
+        <input id="to" type="text" placeholder="To Station" class="input input-bordered input-success w-full max-w-xs" />
+        <label for="ticket">Choose a class</label><br/>
+        <select class="select select-accent w-full max-w-xs">
+          <option disabled selected>Choose a class</option>
+          <option>First-Class</option>
+          <option>Second-Class</option>
+          <option>Local-Class</option>
+        </select>
+      </div>
+    </div>
+    <div class="search-train">
+      <button class="btn btn-block bg-green-300 hover:bg-blue-500 border-style: none">Search Train</button>
+    </div>
   </div>
 </body>
 </html>
